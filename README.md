@@ -1,27 +1,71 @@
-# Simulador de Copa do Mundo
+# 🌍 World Cup Simulator
 
-Base React em JavaScript para simular uma Copa do Mundo completa, com foco em separacao entre dominio, estado, integracao com API e interface.
+Simulador completo de Copa do Mundo desenvolvido em React, com foco em lógica de negócio, organização de estado e experiência do usuário.
 
-## Estrutura
+## 📌 Sobre o projeto
 
-- `src/app`: bootstrap da aplicacao
-- `src/pages`: paginas de alto nivel
-- `src/features/world-cup`: orquestracao da feature principal
-- `src/domain`: regras puras e entidades
-- `src/shared`: utilitarios e constantes compartilhadas
-- `src/api`: cliente HTTP e mapeadores
-- `src/tests`: testes de dominio e integracao leve
-- `docs`: documentacao de apoio
+O **World Cup Simulator** permite simular uma Copa do Mundo desde a fase de grupos até a final, gerando confrontos, classificações e resultados automaticamente.
 
-## Rodando o projeto
+O projeto foi desenvolvido com foco em:
+- Estrutura escalável de código
+- Simulação de regras reais do torneio
+- Interface clara e responsiva
+- Boas práticas com React
 
-1. Instale Node.js com `npm`.
-2. Execute `npm install`.
-3. Execute `npm run dev`.
+---
 
-## Proximos passos
+## ⚙️ Funcionalidades
 
-1. Implementar entidades e contratos do dominio.
-2. Criar os servicos puros de simulacao.
-3. Ligar reducer, contexto e integracao com a API.
-4. Construir as telas de grupos, mata-mata e resumo final.
+✅ Geração de grupos automaticamente  
+✅ Simulação da fase de grupos  
+✅ Classificação baseada em desempenho  
+✅ Geração do mata-mata (oitavas → final)  
+✅ Simulação completa dos jogos eliminatórios  
+✅ Envio do resultado final (mock de integração com API)  
+
+---
+
+## 🧠 Aprendizados
+
+Durante o desenvolvimento, foram trabalhados:
+
+- Gerenciamento de estado complexo
+- Organização de lógica de negócio no front-end
+- Simulação de regras reais (como torneios esportivos)
+- Componentização no React
+- Manipulação de listas e dados dinâmicos
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- React
+- JavaScript (ES6+)
+- CSS3
+- Vite (se estiver usando)
+
+---
+
+## 🎯 Diferenciais
+
+- Lógica completa de torneio implementada do zero
+- Separação clara entre UI e regras de negócio
+- Simulação realista de campeonato
+- Projeto com potencial de evolução para integração com backend
+
+---
+
+## 🚀 Como rodar o projeto
+
+```bash
+# Clonar repositório
+git clone https://github.com/dev-PedroOliveira/world-cup-simulator.git
+
+# Entrar na pasta
+cd world-cup-simulator
+
+# Instalar dependências
+npm install
+
+# Rodar o projeto
+npm run dev
