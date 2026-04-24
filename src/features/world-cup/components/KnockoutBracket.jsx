@@ -112,7 +112,7 @@ export function KnockoutBracket({ rounds }) {
   if (!rounds) return null;
 
   return (
-    <section className="card fade-in">
+    <section className="card fade-in wrapper">
       <h3>Chave (mata-mata)</h3>
       <div className="wc-layout">
         <BracketCore rounds={rounds} />

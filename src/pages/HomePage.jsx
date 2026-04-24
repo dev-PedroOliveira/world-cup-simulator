@@ -15,11 +15,10 @@ export function HomePage() {
   return (
     <section>
       <header className="hero">
-        <span className="badge">Status: {state.status}</span>
         <h1>Simulador de Copa do Mundo</h1>
       </header>
 
-      <section className="grid">
+      <section className="grid wrapper">
   <article className="card">
     <h2>Estado inicial</h2>
     <p>{state.teams.length} times carregados.</p>
@@ -74,7 +73,7 @@ export function HomePage() {
   </article>
 </section>
       {state.champion ? (
-        <article className="card">
+        <article className="card wrapper">
           <h3>Campeão</h3>
             <p>{state.champion.name}</p>
             {state.finalSent ? <p>Resultado enviado para a API.</p> : null}
@@ -83,7 +82,7 @@ export function HomePage() {
 
       <KnockoutBracket rounds={state.knockoutRounds} groups={state.groups} />
       {showGroups && state.groups.length ? (
-        <section className="card fade-in">
+        <section className="card fade-in wrapper">
           <h3>Fase de grupos (A–H)</h3>
           <div className="grid">
             {state.groups.map((group) => (
