@@ -14,6 +14,12 @@ O projeto foi desenvolvido com foco em:
 
 ---
 
+## 🌐 Acesse o projeto
+
+🔗 https://SEU-LINK-VERCEL-AQUI
+
+> Projeto hospedado na Vercel para garantir alta disponibilidade e performance.
+
 ## ⚙️ Funcionalidades
 
 ✅ Geração de grupos automaticamente  
