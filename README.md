@@ -16,7 +16,7 @@ O projeto foi desenvolvido com foco em:
 
 ## 🌐 Acesse o projeto
 
-🔗 https://SEU-LINK-VERCEL-AQUI
+🔗 https://world-cup-simulator-liart.vercel.app/
 
 > Projeto hospedado na Vercel para garantir alta disponibilidade e performance.
 
