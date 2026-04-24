@@ -63,7 +63,6 @@ export function HomePage() {
             golsPenaltyTimeB: finalMatch.goalsPenaltyTimeB ?? 0,
           };
 
-          console.log({ payload });
           dispatch({ type: "FINAL_SENT" });
         }}
       >
