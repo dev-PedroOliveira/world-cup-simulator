@@ -68,6 +68,7 @@ body {
   gap: 10px;
   margin-top: 12px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 button:disabled {
@@ -128,6 +129,7 @@ button:disabled {
 
 .card h2, h3 {
   margin: 0;
+  text-align: center;
 }
 
 .card h4 {
@@ -137,7 +139,10 @@ button:disabled {
 
 .card p,
 .card li {
-  color: #bfd1e6;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(255,255,255,0.4);
+  font-weight: 700;
 }
 
 .badge {
